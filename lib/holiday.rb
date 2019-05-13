@@ -80,7 +80,7 @@ def all_holidays_with_bbq(holiday_hash)
         h_list << holiday 
       end
     end
-    h_list.flatten.compact
+    h_list.flatten
   end
   
 
