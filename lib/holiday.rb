@@ -64,7 +64,7 @@ def all_supplies_in_holidays(holiday_hash)
       arr_h.join(" ")
       supplies.each {|x| x.capitalize!}
       supplies.join(" ")
-      puts "#{arr_h}: #{supplies}"
+      print "#{arr_h}: #{supplies}"
     end
   end
 end
