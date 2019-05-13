@@ -77,11 +77,12 @@ def all_holidays_with_bbq(holiday_hash)
   holiday_hash.each do |season, holiday|
     holiday.each do |holiday, supplies|
       if supplies == "BBQ"
-        holiday_list = holiday
+        holiday_list << holiday
+      end
+    end
+  end
+  holiday_list
 end
-
-holiday_hash.select {|k,h| }
-clients.select{|key, hash| hash["client_id"] == "2180" }
 
 
 
